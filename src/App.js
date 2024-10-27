@@ -1,3 +1,4 @@
+import NavBar from "./components/NavBar";
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
         </p>
       </header>
       <input></input>
-      
+      <NavBar/>
     </div>
   );
 }
