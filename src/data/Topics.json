@@ -1,27 +1,8 @@
-[
-    { "name": "Thinking in React", "path": "/thinking-in-react" },
-    { "name": "JSX", "path": "/jsx" },
-    { "name": "Rendering Elements", "path": "/rendering-elements" },
-    { "name": "Components and Props", "path": "/components-and-props" },
-    { "name": "State and Lifecycle", "path": "/state-and-lifecycle" },
-    { "name": "Handling Events", "path": "/handling-events" },
-    { "name": "Conditional Rendering", "path": "/conditional-rendering" },
-    { "name": "Lists and Keys", "path": "/lists-and-keys" },
-    { "name": "Forms", "path": "/forms" },
-    { "name": "Lifting State Up", "path": "/lifting-state-up" },
-    { "name": "Composition vs Inheritance", "path": "/composition-vs-inheritance" },
-    { "name": "React Hooks", "path": "/react-hooks" },
-    { "name": "Context", "path": "/context" },
-    { "name": "Error Boundaries", "path": "/error-boundaries" },
-    { "name": "Portals", "path": "/portals" },
-    { "name": "Fragments", "path": "/fragments" },
-    { "name": "Refs and the DOM", "path": "/refs-and-the-dom" },
-    { "name": "Higher-Order Components", "path": "/higher-order-components" },
-    { "name": "Render Props", "path": "/render-props" },
-    { "name": "Code-Splitting", "path": "/code-splitting" },
-    { "name": "Suspense", "path": "/suspense" },
-    { "name": "Optimizing Performance", "path": "/optimizing-performance" },
-    { "name": "Testing", "path": "/testing" },
-    { "name": "Concurrent Mode", "path": "/concurrent-mode" }
+{
+  "Interactive Examples": [
+    {
+      "name": "Keeping Components Pure",
+      "path": "/interactive-examples/keeping-components-pure"
+    }
   ]
-  
+}

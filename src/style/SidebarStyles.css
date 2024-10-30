@@ -1,0 +1,38 @@
+/* styles.css */
+
+.sidebar {
+    width: 250px;
+    height: calc(100vh - 56px); 
+    overflow-y: auto;
+    background-color: #f8f9fa; 
+    padding: 15px;
+    border-right: 1px solid #dee2e6; 
+    position: fixed;
+    top: 56px; 
+  }
+
+  .sidebar .accordion-button {
+    color: rgba(0, 0, 0, 0.7); 
+  }
+
+  .sidebar .accordion-item {
+    border: none;
+  }
+  
+  .sidebar .accordion-button {
+    background-color: transparent;
+    font-weight: bold;
+  }
+  
+  .sidebar .nav-link {
+    color: rgba(0, 0, 0, 0.55);
+  }
+  
+  .sidebar .nav-link:hover {
+    color: rgba(0, 0, 0, 0.7); 
+  }
+
+  .pl-3 {
+    padding-left: 1rem !important;
+  }
+  

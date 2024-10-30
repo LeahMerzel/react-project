@@ -1,0 +1,58 @@
+/* Default (Light Theme) */
+body.light {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --nav-bg-color: #f8f9fa;
+    --nav-text-color: #000000;
+    --sidebar-bg-color: #f8f9fa;
+    --sidebar-text-color: rgba(0, 0, 0, 0.55);
+  }
+  
+  /* Dark Theme */
+  body.dark {
+    --bg-color: #1e1e1e;
+    --text-color: #ffffff;
+    --nav-bg-color: #2c2c2c;
+    --nav-text-color: #ffffff;
+    --sidebar-bg-color: #2c2c2c;
+    --sidebar-text-color: rgba(255, 255, 255, 0.75);
+  }
+  
+  /* Apply the variables */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  .navbar {
+    background-color: var(--nav-bg-color) !important;
+  }
+  
+  .navbar .nav-link {
+    color: var(--nav-text-color) !important;
+  }
+  
+  .sidebar {
+    background-color: var(--sidebar-bg-color);
+  }
+  
+  .sidebar .nav-link {
+    color: var(--sidebar-text-color);
+  }
+  
+  .sidebar .nav-link:hover {
+    color: var(--text-color);
+  }
+  
+  .sidebar .accordion-button {
+    color: var(--sidebar-text-color);
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .content {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    /* Other styles */
+  }
