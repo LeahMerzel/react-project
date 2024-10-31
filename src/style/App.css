@@ -1,15 +1,14 @@
 /* App.css */
 
 .app {
-    display: flex;
-  }
-  
-  .content {
-    flex: 1;
-    padding: 20px;
-    padding-top: 56px; 
-    margin-left: 250px;
-  }
+  display: flex;
+}
 
- 
-  
+.content {
+  flex: 1;
+  padding: 20px;
+  padding-top: 56px; 
+  margin-left: 250px;
+}
+
+

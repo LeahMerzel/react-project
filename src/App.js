@@ -9,6 +9,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import ContentArea from './layout/ContentArea';
 import ComponentPurity from './code examples/keeping components pure/ComponentPurity';
+import TeaParty from './code examples/keeping components pure/TeaParty';
 function App() {
 
   return (
@@ -22,7 +23,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             {/* Add routes for Mood Tracker */}
-            <Route path="/interactive-examples/keeping-components-pure" element={<ComponentPurity />} />
+            {/* <Route path="/interactive-examples/keeping-components-pure" element={<ComponentPurity />} /> */}
+            {<Route path="/interactive-examples/keeping-components-pure" element={<TeaParty />} />}
             {/* Define other routes */}
           </Routes>
         </ContentArea>
