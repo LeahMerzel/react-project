@@ -1,32 +1,24 @@
 {
-  "Interactive Examples": [
-    {
-      "name": "Keeping Components Pure",
-      "path": "/interactive-examples/keeping-components-pure"
-    },
-    {
-      "name": "Responding To Events",
-      "path": "/interactive-examples/responding-to-events"
-    },
-    {
-      "name": "Declarative UI",
-      "path": "/interactive-examples/declarative-ui"
-    }, 
-    {
-      "name": "Responding To Events",
-      "path": "/interactive-examples/responding-to-events"
-    },
-    {
-      "name": "Responding To Events",
-      "path": "/interactive-examples/responding-to-events"
-    },
-    {
-      "name": "Responding To Events",
-      "path": "/interactive-examples/responding-to-events"
-    },
-    {
-      "name": "Responding To Events",
-      "path": "/interactive-examples/responding-to-events"
-    }
-  ]
+  "Interactive Examples": {
+    "Basics": [
+      {
+        "name": "Keeping Components Pure",
+        "path": "/interactive-examples/keeping-components-pure"
+      },
+      {
+        "name": "Declarative UI",
+        "path": "/interactive-examples/declarative-ui"
+      }
+    ],
+    "Events": [
+      {
+        "name": "Responding To Events",
+        "path": "/interactive-examples/responding-to-events"
+      },
+      {
+        "name": "Handling User Input",
+        "path": "/interactive-examples/handling-user-input"
+      }
+    ]
+  }
 }
