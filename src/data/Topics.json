@@ -3,6 +3,30 @@
     {
       "name": "Keeping Components Pure",
       "path": "/interactive-examples/keeping-components-pure"
+    },
+    {
+      "name": "Responding To Events",
+      "path": "/interactive-examples/responding-to-events"
+    },
+    {
+      "name": "Declarative UI",
+      "path": "/interactive-examples/declarative-ui"
+    }, 
+    {
+      "name": "Responding To Events",
+      "path": "/interactive-examples/responding-to-events"
+    },
+    {
+      "name": "Responding To Events",
+      "path": "/interactive-examples/responding-to-events"
+    },
+    {
+      "name": "Responding To Events",
+      "path": "/interactive-examples/responding-to-events"
+    },
+    {
+      "name": "Responding To Events",
+      "path": "/interactive-examples/responding-to-events"
     }
   ]
 }
