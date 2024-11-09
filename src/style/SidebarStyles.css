@@ -1,38 +1,48 @@
 /* styles.css */
 
 .sidebar {
-    width: 250px;
-    height: calc(100vh - 56px); 
-    overflow-y: auto;
-    background-color: #f8f9fa; 
-    padding: 15px;
-    border-right: 1px solid #dee2e6; 
-    position: fixed;
-    top: 56px; 
-  }
+  width: 250px;
+  height: calc(100vh - 56px); 
+  overflow-y: auto;
+  background-color: var(--sidebar-bg-color); 
+  padding: 15px;
+  border-right: 1px solid var(--border-color); 
+  position: fixed;
+  top: 56px; 
+  color: var(--sidebar-text-color); 
+}
 
-  .sidebar .accordion-button {
-    color: rgba(0, 0, 0, 0.7); 
-  }
+.sidebar .accordion-button {
+  color: var(--accordion-header-text-color);
+  background-color: var(--accordion-header-bg-color);
+  font-weight: bold;
+  border: none;
+}
 
-  .sidebar .accordion-item {
-    border: none;
-  }
-  
-  .sidebar .accordion-button {
-    background-color: transparent;
-    font-weight: bold;
-  }
-  
-  .sidebar .nav-link {
-    color: rgba(0, 0, 0, 0.55);
-  }
-  
-  .sidebar .nav-link:hover {
-    color: rgba(0, 0, 0, 0.7); 
-  }
+.sidebar .accordion-button:not(.collapsed) {
+  color: var(--accordion-header-text-color);
+  background-color: var(--accordion-header-bg-color);
+}
 
-  .pl-3 {
-    padding-left: 1rem !important;
-  }
-  
+.sidebar .accordion-item {
+  border: none;
+  background-color: var(--accordion-body-bg-color);
+}
+
+.sidebar .accordion-body {
+  background-color: var(--accordion-body-bg-color);
+  color: var(--accordion-body-text-color);
+  padding-left: 0; 
+}
+
+.sidebar .nav-link {
+  color: var(--nav-link-color);
+}
+
+.sidebar .nav-link:hover {
+  color: var(--nav-link-hover-color); 
+}
+
+.pl-3 {
+  padding-left: 1rem !important;
+}

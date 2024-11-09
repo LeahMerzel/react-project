@@ -1,0 +1,26 @@
+/* NavBar.css */
+
+.navbar-light {
+    background-color: var(--navbar-bg-color);
+    color: var(--navbar-text-color);
+  }
+  
+  .navbar-dark {
+    background-color: var(--navbar-bg-color);
+    color: var(--navbar-text-color);
+  }
+  
+  /* Adjust the link styles */
+  .navbar-light .nav-link {
+    color: var(--navbar-link-color);
+  }
+  
+  .navbar-dark .nav-link {
+    color: var(--navbar-link-color);
+  }
+  
+  .navbar-light .nav-link:hover,
+  .navbar-dark .nav-link:hover {
+    color: var(--navbar-link-hover-color);
+  }
+  

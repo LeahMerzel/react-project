@@ -7,6 +7,8 @@
   margin-left: 250px;
   overflow-y: auto;
   min-height: calc(100vh - var(--nav-height) - var(--footer-height));
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .content-title {
@@ -14,7 +16,8 @@
   margin-bottom: 20px;
 }
 
-.content-description {
+.content-description,
+.content-conclusion {
   text-align: left;
   max-width: 800px;
   margin: 0 auto 40px;
@@ -28,30 +31,26 @@
 
 .examples-1 .example {
   width: 100%;
-  background-color: #f0f8ff; /* Light blue background */
+  background-color: var(--primary-bg-color);
 }
 
 .examples-2 .left-example {
   width: calc(50% - 10px);
-  background-color: #fff8f8; /* Light red background */
+  background-color: var(--secondary-bg-color);
 }
 
 .examples-2 .right-example {
   width: calc(50% - 10px);
-  background-color: #f8fff8; /* Light green background */
+  background-color: var(--tertiary-bg-color);
 }
 
 .example {
   box-sizing: border-box;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
-}
-
-.content-conclusion {
-  text-align: left;
-  max-width: 800px;
-  margin: 40px auto 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .example label {
@@ -65,6 +64,9 @@
   padding: 8px;
   margin-bottom: 15px;
   box-sizing: border-box;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
 }
 
 .example h2 {

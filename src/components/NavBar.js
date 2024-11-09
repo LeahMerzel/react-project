@@ -1,20 +1,20 @@
 // NavBar.js
 
-import { React, useContext} from 'react';
+import React, { useContext } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import SearchBar from './SearchBar'; 
 import logo from '../assets/logo.jpeg'; 
 import { FaGithub, FaMoon, FaSun } from 'react-icons/fa';
 import { ThemeContext } from '../hooks/ThemeContext';
+import '../style/NavBar.css'; // Import the custom CSS
 
 const NavBar = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <Navbar bg="light" expand="lg" fixed="top">
+    <Navbar expand="lg" fixed="top" className={`navbar-${theme}`}>
       <Container>
-        {/* Logo */}
         <Navbar.Brand as={Link} to="/">
           <img
             src={logo}
@@ -24,17 +24,13 @@ const NavBar = () => {
           />
         </Navbar.Brand>
 
-        {/* Navbar Toggle for Mobile View */}
         <Navbar.Toggle aria-controls="navbar-content" />
 
-        {/* Navbar Collapse */}
         <Navbar.Collapse id="navbar-content">
-          {/* SearchBar Component */}
           <div className="mx-auto">
             <SearchBar />
           </div>
 
-          {/* Navigation Links */}
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/about">
               About
@@ -47,14 +43,13 @@ const NavBar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub size={24} />
+              <FaGithub size={24} color="currentColor" />
             </Nav.Link>
-             {/* Theme Toggle Button */}
-             <Nav.Link onClick={toggleTheme} style={{ cursor: 'pointer' }}>
+            <Nav.Link onClick={toggleTheme} style={{ cursor: 'pointer' }}>
               {theme === 'light' ? (
-                <FaMoon size={24} />
+                <FaMoon size={24} color="currentColor" />
               ) : (
-                <FaSun size={24} color="#FFA500" />
+                <FaSun size={24} color="currenColor" />
               )}
             </Nav.Link>
           </Nav>

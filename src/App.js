@@ -2,7 +2,6 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Sidebar from './layout/SideBar';
-import ContentArea from './layout/ContentArea';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import TeaParty from './code-examples/keeping-components-pure/TeaParty';
@@ -22,7 +21,6 @@ function App() {
               <Route path="/interactive-examples/basics/keeping-components-pure" element={<TeaParty />} />
               <Route path="/interactive-examples/basics/declarative-ui" element={<Picture />} />
               <Route path="/interactive-examples/events/responding-to-events" element={<EventsAsProps />} />
-              {/* Add other routes here */}
             </Routes>
         </div>
       </div>

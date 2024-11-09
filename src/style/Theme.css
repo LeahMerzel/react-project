@@ -1,58 +1,49 @@
-/* Default (Light Theme) */
+/* theme.css */
+
+/* Light Theme */
 body.light {
-    --bg-color: #ffffff;
-    --text-color: #000000;
-    --nav-bg-color: #f8f9fa;
-    --nav-text-color: #000000;
-    --sidebar-bg-color: #f8f9fa;
-    --sidebar-text-color: rgba(0, 0, 0, 0.55);
-  }
-  
-  /* Dark Theme */
-  body.dark {
-    --bg-color: #1e1e1e;
-    --text-color: #ffffff;
-    --nav-bg-color: #2c2c2c;
-    --nav-text-color: #ffffff;
-    --sidebar-bg-color: #2c2c2c;
-    --sidebar-text-color: rgba(255, 255, 255, 0.75);
-  }
-  
-  /* Apply the variables */
-  body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-  }
-  
-  .navbar {
-    background-color: var(--nav-bg-color) !important;
-  }
-  
-  .navbar .nav-link {
-    color: var(--nav-text-color) !important;
-  }
-  
-  .sidebar {
-    background-color: var(--sidebar-bg-color);
-  }
-  
-  .sidebar .nav-link {
-    color: var(--sidebar-text-color);
-  }
-  
-  .sidebar .nav-link:hover {
-    color: var(--text-color);
-  }
-  
-  .sidebar .accordion-button {
-    color: var(--sidebar-text-color);
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
-  }
-  
-  .content {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    /* Other styles */
-  }
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --primary-bg-color: #f0f8ff; /* Light blue */
+  --secondary-bg-color: #fff8f8; /* Light red */
+  --tertiary-bg-color: #f8fff8; /* Light green */
+  --border-color: #ccc;
+  --sidebar-bg-color: #f8f9fa;
+  --sidebar-text-color: rgba(0, 0, 0, 0.7);
+  --nav-link-color: rgba(0, 0, 0, 0.55);
+  --nav-link-hover-color: rgba(0, 0, 0, 0.7);
+  --navbar-bg-color: #f8f9fa; /* Light gray */
+  --navbar-text-color: #000000;
+  --navbar-link-color: rgba(0, 0, 0, 0.55);
+  --navbar-link-hover-color: rgba(0, 0, 0, 0.7);
+  --sidebar-bg-color: #f8f9fa;
+  --sidebar-text-color: #000000;
+  --accordion-header-bg-color: #ffffff;
+  --accordion-header-text-color: #000000;
+  --accordion-body-bg-color: #f8f9fa;
+  --accordion-body-text-color: #000000;
+}
+
+/* Dark Theme */
+body.dark {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --primary-bg-color: #1e1e2f; /* Dark blue */
+  --secondary-bg-color: #2f1e1e; /* Dark red */
+  --tertiary-bg-color: #1e2f1e; /* Dark green */
+  --border-color: #444;
+  --sidebar-bg-color: #1f1f1f;
+  --sidebar-text-color: rgba(255, 255, 255, 0.85);
+  --nav-link-color: rgba(255, 255, 255, 0.65);
+  --nav-link-hover-color: rgba(255, 255, 255, 0.85);
+  --navbar-bg-color: #1f1f1f; /* Dark gray */
+  --navbar-text-color: #ffffff;
+  --navbar-link-color: rgba(255, 255, 255, 0.65);
+  --navbar-link-hover-color: rgba(255, 255, 255, 0.85);
+  --sidebar-bg-color: #1f1f1f;
+  --sidebar-text-color: #ffffff;
+  --accordion-header-bg-color: #2a2a2a;
+  --accordion-header-text-color: #ffffff;
+  --accordion-body-bg-color: #1f1f1f;
+  --accordion-body-text-color: #e0e0e0;
+}
