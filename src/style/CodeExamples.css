@@ -1,0 +1,21 @@
+/* CodeExamples.css */
+
+.background {
+    padding: 20px;
+    background-color: white; /* Default background color */
+  }
+  
+  .background.background--active {
+    background-color: purple; /* Highlighted background when active */
+  }
+  
+  .picture {
+    display: block;
+    margin: 0 auto;
+    border: none; /* No border by default */
+  }
+  
+  .picture.picture--active {
+    border: 5px solid blue; /* Highlighted border when active */
+  }
+  

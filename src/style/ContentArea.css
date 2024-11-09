@@ -1,91 +1,72 @@
 /* src/style/ContentArea.css */
 
 .content-area {
-    flex: 1;
-    padding: 20px;
-    overflow-y: auto;
-    min-height: calc(100vh - var(--nav-height) - var(--footer-height));
-  }
-  
-  /* Styles for ComponentPurity */
-  .component-purity {
-    padding: 20px;
-  }
-  
-  .component-purity h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+  flex: 1;
+  padding: 20px;
+  padding-top: 64px; 
+  margin-left: 250px;
+  overflow-y: auto;
+  min-height: calc(100vh - var(--nav-height) - var(--footer-height));
+}
 
-  .component-purity p {
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto 40px;
-  }
-  
-  .trackers {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .tracker {
-    width: 48%;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-  }
-  
-  .mood-tracker {
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
-  }
-  
-  .mood-tracker h2 {
-    margin-bottom: 10px;
-  }
-  
-  .mood-tracker p {
-    margin-bottom: 20px;
-  }
-  
-  .button {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px 15px;
-    font-size: 1.2em;
-  }
-  
-  .buttons button {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px 15px;
-    font-size: 1.2em;
-  }
-  
-  .mood-history {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-  }
-  
-  .logs {
-    background-color: #f7f7f7;
-    padding: 10px;
-    max-height: 150px;
-    overflow-y: auto;
-    border: 1px solid #ddd;
-  }
-  
-  .logs div {
-    font-family: monospace;
-    font-size: 0.9em;
-  }
-  
-  .impure {
-    background-color: #fff8f8;
-  }
-  
-  .pure {
-    background-color: #f8fff8;
-  }
-  
+.content-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content-description {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.content-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.examples-1 .example {
+  width: 100%;
+  background-color: #f0f8ff; /* Light blue background */
+}
+
+.examples-2 .left-example {
+  width: calc(50% - 10px);
+  background-color: #fff8f8; /* Light red background */
+}
+
+.examples-2 .right-example {
+  width: calc(50% - 10px);
+  background-color: #f8fff8; /* Light green background */
+}
+
+.example {
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.content-conclusion {
+  text-align: left;
+  max-width: 800px;
+  margin: 40px auto 0;
+}
+
+.example label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.example input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.example h2 {
+  margin-top: 0;
+}

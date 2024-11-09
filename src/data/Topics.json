@@ -3,21 +3,17 @@
     "Basics": [
       {
         "name": "Keeping Components Pure",
-        "path": "/interactive-examples/keeping-components-pure"
+        "path": "/interactive-examples/basics/keeping-components-pure"
       },
       {
         "name": "Declarative UI",
-        "path": "/interactive-examples/declarative-ui"
+        "path": "/interactive-examples/basics/declarative-ui"
       }
     ],
     "Events": [
       {
         "name": "Responding To Events",
-        "path": "/interactive-examples/responding-to-events"
-      },
-      {
-        "name": "Handling User Input",
-        "path": "/interactive-examples/handling-user-input"
+        "path": "/interactive-examples/events/responding-to-events"
       }
     ]
   }

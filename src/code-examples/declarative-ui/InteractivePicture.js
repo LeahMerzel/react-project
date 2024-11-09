@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import logo from '../../assets/logo.jpeg'; 
+import '../../style/CodeExamples.css';
 
 export default function Picture() {
   const [isActive, setIsActive] = useState(false);
