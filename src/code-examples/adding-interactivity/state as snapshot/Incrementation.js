@@ -1,12 +1,12 @@
 // src/components/TeaParty.js
 
 import React from 'react';
-import ContentArea from '../../layout/ContentArea';
-import ImpureComp from './ImpureComp';
-import PureComp from './PureComp';
+import ContentArea from '../../../layout/ContentArea';
+import IncrementOne from './IncrementOne';
+import IncrementThree from './IncrementThree';
 
-function TeaParty() {
-  const title = 'Tea Party: Pure vs Impure Components';
+function Incrementation() {
+  const title = 'State as Snapshot - Try Incrementing';
   const description = (
     <p>
       In this example, we demonstrate the difference between pure and impure components in React.
@@ -20,8 +20,8 @@ function TeaParty() {
   );
 
   const examples = [
-    <ImpureComp />,
-    <PureComp />,
+    <IncrementOne />,
+    <IncrementThree />,
   ];
 
   return (
@@ -34,4 +34,4 @@ function TeaParty() {
   );
 }
 
-export default TeaParty;
+export default Incrementation;

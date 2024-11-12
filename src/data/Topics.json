@@ -1,19 +1,79 @@
 {
-  "Interactive Examples": {
-    "Basics": [
+  "React": {
+    "Describing The UI": [
       {
         "name": "Keeping Components Pure",
-        "path": "/interactive-examples/basics/keeping-components-pure"
-      },
-      {
-        "name": "Declarative UI",
-        "path": "/interactive-examples/basics/declarative-ui"
+        "path": "/describing-the-ui/keeping-components-pure"
       }
     ],
-    "Events": [
+    "Adding Interactivity": [
       {
         "name": "Responding To Events",
-        "path": "/interactive-examples/events/responding-to-events"
+        "path": "/adding-interactivity/responding-to-events"
+      },
+      {
+        "name": "Event Propogation",
+        "path": "/adding-interactivity/responding-to-events/event-propogation"
+      },
+      {
+        "name": "Prevent Default",
+        "path": "/adding-interactivity/responding-to-events/prevent-default-behavior"
+      },
+      {
+        "name": "State As Snapshot",
+        "path": "/adding-interactivity/state-as-snapshot/incrementation"
+      }
+    ],
+    "Managing State": [
+      {
+        "name": "Declarative UI",
+        "path": "/managing-state/declarative-ui"
+      },
+      {
+        "name": "State Structure",
+        "path": "/managing-state/state-structure/avoiding-duplication"
+      },
+      {
+        "name": "Avoiding Redundancy",
+        "path": "/managing-state/state-structure/avoiding-redundancy"
+      },
+      {
+        "name": "Resetting State",
+        "path": "/managing-state/resetting-state"
+      },
+      {
+        "name": "Reducer Implementation",
+        "path": "/managing-state/resducer-implementation"
+      },
+      {
+        "name": "Context Implementation",
+        "path": "/managing-state/context-implementation"
+      },
+      {
+        "name": "Context-Reducer Implementation",
+        "path": "/managing-state/context-reducer-implementation"
+      }
+    ],
+    "Escape Hatches": [
+      {
+        "name": "Ref",
+        "path": "/escape-hatches/ref"
+      },
+      {
+        "name": "Ref 2nd Example",
+        "path": "/escape-hatches/ref/second-example"
+      },
+      {
+        "name": "Manipulating The DOM",
+        "path": "/escape-hatches/ref/manipulating-the-DOM"
+      },
+      {
+        "name": "Effects",
+        "path": "/escape-hatches/effects/"
+      },
+      {
+        "name": "Effects 2nd Example",
+        "path": "/escape-hatches/effects/second-example"
       }
     ]
   }

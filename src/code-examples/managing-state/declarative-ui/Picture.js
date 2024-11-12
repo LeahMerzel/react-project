@@ -1,7 +1,7 @@
 // src/components/TeaParty.js
 
 import React from 'react';
-import ContentArea from '../../layout/ContentArea';
+import ContentArea from '../../../layout/ContentArea';
 import InteractivePicture from './InteractivePicture';
 
 function Picture() {
