@@ -74,6 +74,22 @@
       {
         "name": "Effects 2nd Example",
         "path": "/escape-hatches/effects/second-example"
+      },
+      {
+        "name": "No Need For Effect",
+        "path": "/escape-hatches/effects/less-state-and-effect"
+      },
+      {
+        "name": "Effects 2nd Example",
+        "path": "/escape-hatches/effects/second-example"
+      },
+      {
+        "name": "Effects 2nd Example",
+        "path": "/escape-hatches/effects/second-example"
+      },
+      {
+        "name": "Effects 2nd Example",
+        "path": "/escape-hatches/effects/second-example"
       }
     ]
   }

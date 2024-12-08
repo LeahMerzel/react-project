@@ -21,6 +21,7 @@ import RefToggle from './code-examples/escape-hatches/ref/RefToggle';
 import RefButton from './code-examples/escape-hatches/ref/manipulating DOM/RefButton';
 import FocusEffect from './code-examples/escape-hatches/effects/FocusEffect';
 import TimerEffect from './code-examples/escape-hatches/effects/TimerEffect';
+import LessEffects from './code-examples/escape-hatches/effects/no-need-for-effect/LessEffects';
 
 
 function App() {
@@ -51,7 +52,7 @@ function App() {
               <Route path="/escape-hatches/ref" element={<ChatInput/>}/>
               <Route path="/escape-hatches/effects" element={<FocusEffect/>}/>
               <Route path="/escape-hatches/effects/second-example" element={<TimerEffect/>}/>
-              <Route path="/escape-hatches/effects" element={<FocusEffect/>}/>
+              <Route path="/escape-hatches/effects/less-state-and-effect" element={<LessEffects/>}/>
               <Route path="/escape-hatches/effects" element={<FocusEffect/>}/>
               <Route path="/escape-hatches/effects" element={<FocusEffect/>}/>
               <Route path="/escape-hatches/effects" element={<FocusEffect/>}/>
