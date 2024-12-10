@@ -22,7 +22,7 @@ import RefButton from './code-examples/escape-hatches/ref/manipulating DOM/RefBu
 import FocusEffect from './code-examples/escape-hatches/effects/FocusEffect';
 import TimerEffect from './code-examples/escape-hatches/effects/TimerEffect';
 import LessEffects from './code-examples/escape-hatches/effects/no-need-for-effect/LessEffects';
-
+import LifeCycle from './code-examples/escape-hatches/effects-life-cycle/LifeCycle';
 
 function App() {
   return (
@@ -53,7 +53,7 @@ function App() {
               <Route path="/escape-hatches/effects" element={<FocusEffect/>}/>
               <Route path="/escape-hatches/effects/second-example" element={<TimerEffect/>}/>
               <Route path="/escape-hatches/effects/less-state-and-effect" element={<LessEffects/>}/>
-              <Route path="/escape-hatches/effects" element={<FocusEffect/>}/>
+              <Route path="/escape-hatches/effects-life-cycle/life-cycle" element={<LifeCycle/>}/>
               <Route path="/escape-hatches/effects" element={<FocusEffect/>}/>
               <Route path="/escape-hatches/effects" element={<FocusEffect/>}/>
 

@@ -80,8 +80,8 @@
         "path": "/escape-hatches/effects/less-state-and-effect"
       },
       {
-        "name": "Effects 2nd Example",
-        "path": "/escape-hatches/effects/second-example"
+        "name": "Life Cycle of Reactive Effects",
+        "path": "/escape-hatches/effects-life-cycle/life-cycle"
       },
       {
         "name": "Effects 2nd Example",
